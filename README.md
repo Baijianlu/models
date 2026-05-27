@@ -93,6 +93,8 @@ python predict.py
 python roost-example.py --evaluate --test-path test.csv --targets y --tasks regression --losses L2 --data-seed 42 --ensemble 1 --batch-size 256 --model-name ZT_1 --run-id 1 --log
 ```
 
+注：每个性质的命令稍有不同，区别在于--model-name选择不同的性质对应的模型。具体参见每个性质文件夹中的jobscript文件。
+
 **输出**：.csv文件，如predict.csv，格式如下表所示
 | material_id         | composition                  | temp             | Pred_Roost |
 | --------------- | ------------------------ | -------------------- | -------------------- |
