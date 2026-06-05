@@ -1,5 +1,5 @@
 # models
-This project contains pretrained ML models to predict thermoelectric transport properties only using composition and temperature.
+This project contains pretrained ML models to predict thermoelectric transport properties (i.e. Seebeck coefficient, electrical conductivity, thermal conductivity, power factor and figure of merit) only using composition and temperature.
 ## 安装
 模型依赖于scikit-learn，XGBoost，pytorch等软件包训练和使用，在调用模型之前需要安装这些依赖的软件。
 对于SKL_HGB和XGBoost模型，执行以下命令安装依赖环境：
